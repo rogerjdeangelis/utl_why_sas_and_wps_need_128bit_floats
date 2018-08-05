@@ -8,7 +8,7 @@ Why sas and wps need 128bit floats. Keywords: sas sql join merge big data analyt
 
      REASONS
 
-        1, Relatively easy to add 128bit floats to input/output  SAS datasets (eliminates for integer and decimal types)
+        1, Relatively easy to add 128bit floats to input/output  SAS datasets (eliminates need for integer and decimal types)
            Very natural and easy for INTEL/AMD to add 128bit cores(engines). Already possible with CUDA?
 
         2. Although 64bit floats have more range than 64bit integers, floats have less precision.
